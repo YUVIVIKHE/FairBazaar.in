@@ -1,0 +1,43 @@
+# Decap CMS (https://decapcms.org) — edit blog articles without touching code.
+# Enable by connecting the Git backend (GitHub + an OAuth provider, or Netlify Identity/Git Gateway).
+backend:
+  name: github
+  repo: yuvivikhe/fairbazaar.in
+  branch: main
+publish_mode: editorial_workflow   # draft → in review → ready → published
+media_folder: public/media/blog
+public_folder: /media/blog
+
+collections:
+  - name: blog
+    label: Blog articles
+    folder: content/blog
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    fields:
+      - { name: title, label: Title (H1) }
+      - { name: seoTitle, label: SEO title, required: false }
+      - { name: description, label: Meta description, hint: "140–160 characters" }
+      - { name: category, label: Category, widget: select, options: ["AI", "SaaS", "Software Development", "CRM", "ERP", "HRMS", "Business Automation", "Digital Transformation", "Cloud", "Cybersecurity", "Web Development", "Mobile Development", "Technology", "Startup Technology", "Business Growth", "Guides"] }
+      - { name: tags, label: Tags, widget: list }
+      - { name: author, label: Author id, default: fairbazaar-editorial }
+      - { name: publishedAt, label: Published date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { name: updatedAt, label: Updated date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { name: image, label: Featured image, widget: image, required: false }
+      - { name: imageAlt, label: Featured image alt text }
+      - { name: imagePrompt, label: Image generation prompt, required: false }
+      - { name: imageReady, label: Featured image uploaded?, widget: boolean, default: false }
+      - { name: canonical, label: Canonical URL override, required: false }
+      - { name: status, label: Status, widget: select, options: [draft, published], default: draft }
+      - { name: pillar, label: Pillar service slug, required: false, hint: "e.g. ai-development — links article to its pillar page" }
+      - { name: relatedServices, label: Related service slugs, widget: list, required: false }
+      - { name: relatedProducts, label: Related product slugs, widget: list, required: false }
+      - { name: question, label: AEO question, required: false }
+      - { name: answer, label: AEO answer (40–60 words), widget: text, required: false }
+      - label: FAQs
+        name: faqs
+        widget: list
+        required: false
+        fields: [{ name: q, label: Question }, { name: a, label: Answer, widget: text }]
+      - { name: body, label: Body, widget: markdown }
