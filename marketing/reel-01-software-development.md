@@ -1,7 +1,7 @@
 # Reel 01 — "Any software for your business"
 
 **Files**
-- `FairBazaar-Reel-Software-Development.mp4` — 1080×1920, 26.5 s, 30 fps, H.264 + AAC, with sound effects
+- `FairBazaar-Reel-Software-Development.mp4` — 1080×1920, 26.5 s, 30 fps, H.264 + AAC, with music + sound effects (ready to post)
 - `FairBazaar-Reel-Software-Development-no-sound.mp4` — same video, silent (use if you only want Instagram music)
 - `FairBazaar-Reel-Software-Development-cover.jpg` — cover / thumbnail
 
@@ -18,8 +18,10 @@
 | 22–26.5 s | CTA: cursor clicks "Book a FREE consultation" · Comment "SOFTWARE" · FairBazaar · fairbazaar.in |
 
 ## Audio
-The main file has synced sound effects (whooshes on transitions, pops, a bass hit on the name reveal, a button click).
-For best reach also add a trending, upbeat audio inside Instagram (Reels → Add audio) and set the original audio to about 50% so both are heard. Or upload the no-sound version and use only the trending audio.
+Music: "Upbeat Corporate" by paulyudin (Pixabay Music, Pixabay Content License). The track starts at 1:04.8 so its drop lands on the FairBazaar name reveal at 7.2 s; its natural ending closes the reel.
+
+The main file also has synced sound effects (whooshes on transitions, pops, a bass hit on the name reveal, a button click).
+The main file is ready to post as-is (including from a laptop). Or upload the no-sound version and add a trending audio inside the Instagram app instead.
 
 ## Caption (copy-paste)
 Still managing your business on Excel sheets and WhatsApp groups? 😓
