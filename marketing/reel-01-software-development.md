@@ -1,20 +1,25 @@
 # Reel 01 — "Any software for your business"
 
-**File:** `FairBazaar-Reel-Software-Development.mp4` (1080×1920, 26 s, 30 fps, H.264, no audio)
-**Cover:** `FairBazaar-Reel-Software-Development-cover.jpg`
+**Files**
+- `FairBazaar-Reel-Software-Development.mp4` — 1080×1920, 26.5 s, 30 fps, H.264 + AAC, with sound effects
+- `FairBazaar-Reel-Software-Development-no-sound.mp4` — same video, silent (use if you only want Instagram music)
+- `FairBazaar-Reel-Software-Development-cover.jpg` — cover / thumbnail
+
+**Style:** light theme, brand colours (blue #3D6BFF, violet #6F5BFF, mint #2EE6A6), the "FairBazaar" name used as the logo, kinetic word-by-word text, highlight swipes, gradient wipe transitions, push transitions between product screens, ring burst, shine sweeps, animated cursor click, motion blur.
 
 ## Storyboard
 | Time | Scene |
 |---|---|
-| 0–3 s | Hook: "Still running your business on Excel & WhatsApp?" |
-| 3–7 s | Pain points: leads lost, paper attendance, stock mismatch, slow reports |
-| 7–10 s | Turn: "We build software around YOUR business" + logo |
-| 10–18 s | Showcase: HRMS & Payroll, CRM, ERP, AI Agents, Mobile Apps, Websites |
-| 18–22 s | "Any software your business needs" — 8 solution chips |
-| 22–26 s | CTA: Book a FREE consultation · Comment "SOFTWARE" · fairbazaar.in |
+| 0–3.2 s | Hook: "Still running your business on Excel & WhatsApp?" |
+| 3.2–7.2 s | Pain points slide in, then get struck through |
+| 7.2–10.2 s | "FairBazaar" name reveal with ring burst: "We build software around YOUR business" |
+| 10.2–18.6 s | Showcase: HRMS & Payroll, CRM & Sales, ERP & Inventory, AI Agents, Mobile Apps, Websites |
+| 18.6–22 s | "Any software your business needs": 8 solution chips + Idea → Support process |
+| 22–26.5 s | CTA: cursor clicks "Book a FREE consultation" · Comment "SOFTWARE" · FairBazaar · fairbazaar.in |
 
 ## Audio
-Add a trending, upbeat audio inside Instagram (Reels → Add audio). Trending audio gets more reach than embedded music. Keep volume moderate.
+The main file has synced sound effects (whooshes on transitions, pops, a bass hit on the name reveal, a button click).
+For best reach also add a trending, upbeat audio inside Instagram (Reels → Add audio) and set the original audio to about 50% so both are heard. Or upload the no-sound version and use only the trending audio.
 
 ## Caption (copy-paste)
 Still managing your business on Excel sheets and WhatsApp groups? 😓
